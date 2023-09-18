@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Tamma 2", cursive;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  background: #dfe4ea;
+}
+
+#wrapper {
+  background: #31af38;
+  display: block;
+  padding: 150px;
+  border-radius: 20px;
+
+  margin: 0 5px;
+  color: #dfe4ea;
+}
+p {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 10px;
+  overflow-wrap: break-word;
+}
+#value {
+  color: #dfe4ea;
+  font-size: 100px;
+  font-weight: 50;
+  letter-spacing: 1px;
+}
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+i {
+  padding: 10px 35px;
+  font-size: 25px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  background: #000000;
+  cursor: pointer;
+}
+i:active {
+  transform: translateY(4px);
+}
+a {
+  padding: 50px 100px;
+  font-size: 25px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  background: #000000;
+  cursor: pointer;
+}
+a:active {
+  transform: translateY(4px);
+}
