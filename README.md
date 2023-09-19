@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="" target="_blank" rel="noreferrer"><img src="g" alt=""></a>
 </p>
@@ -25,14 +24,14 @@ Majelis Semarang Adalah Media Informasi Digital Tentang Islam Yang Berdiri Atau 
     <td width="50%" valign="top">
       <h3 align="center">Website</h3>
         <br />
-        <a target="_blank" href="https://majelissemarang.github.io/official/">
-            <img src="" width="100%" alt=""/>
+        <a target="_blank" href="">
+            <img src="./image/majelissemarang.png" width="100%" alt=""/>
         </a>
         <br />
         <p align="center">
           <br>
   <a href="https://majelissemarang.github.io/official/" target="_blank">
-    <img src="./image/majelissemarang.png"/>
+    <img src="https://raw.githubusercontent.com/Bonggomunen/Bonggomunen/main/link.png"/>
   </a>
       </p>
         <p><strong>Majelis Semarang</strong> -  Web Media Islami</p>
