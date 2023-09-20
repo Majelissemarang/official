@@ -11,7 +11,8 @@
 alert ('Panduan Penggunaan')
 alert ('1.Masukkanlah Data (Nominal) Kedalam kotak yang tersedia pada setiap keterangan')
 alert ('2.Untuk Mendapatkan Jumlah Zakat anda harus Memasukkan nominal pada baris, Contoh (Harga Emas Murni Saat ini per Gram ditulis dalam bentuk nominal Rupiah)')
-alert ('3.Apabila Jumlah Zakat Yang Harus di Bayarkan Bernilai 0, Anda Tidak dikenakan Membayar Zakat') 
+alert ('3.Apabila Jumlah Zakat Yang Harus di Bayarkan Bernilai 0, Anda Tidak dikenakan Membayar Zakat')
+   alert ('&gt ; singkatan tanda lebih besar dari (>)')
   alert ('Mohon Maaf Bila Ada Kesalahan') 
 </script>
 <script language="JavaScript">
@@ -100,35 +101,35 @@ function calc_total()
   <td colspan="2"><div align="center"><strong>ZAKAT HARTA YANG TELAH TERSIMPAN SATU TAHUN</strong></div></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;" width="75%">a. Uang Tunai, Tabungan, Deposito atau sejenisnya</td>
+  <td style="padding-left:20px;" width="75%">A. Uang Tunai, Tabungan, Deposito atau sejenisnya</td>
   <td width="15%">Rp <input name="fa" onchange="calc_simpanan()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">b. Saham atau surat-surat berharga lainnya</td>
+  <td style="padding-left:20px;">B. Saham atau surat-surat berharga lainnya</td>
   <td>Rp <input name="fb" onchange="calc_simpanan()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">c. Real Estate (tidak termasuk rumah tinggal yang dipakai sekarang)</td>
+  <td style="padding-left:20px;">C. Real Estate (tidak termasuk rumah tinggal yang dipakai sekarang)</td>
   <td>Rp <input name="fc" onchange="calc_simpanan()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">d. Emas, Perak, Permata atau sejenisnya</td>
+  <td style="padding-left:20px;">D. Emas, Perak, Permata atau sejenisnya</td>
   <td>Rp <input name="fd" onchange="calc_simpanan()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">e. Mobil (lebih dari keperluan pekerjaan anggota keluarga)</td>
+  <td style="padding-left:20px;">E. Mobil (lebih dari keperluan pekerjaan anggota keluarga)</td>
   <td>Rp <input name="fe" onchange="calc_simpanan()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">f. Jumlah Harta Simpanan (A+B+C+D+E)</td>
+  <td style="padding-left:20px;">F. Jumlah Harta Simpanan (A+B+C+D+E)</td>
   <td><strong>Rp</strong> <input name="ff" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">g. Hutang Pribadi yg jatuh tempo dalam tahun ini</td>
+  <td style="padding-left:20px;">G. Hutang Pribadi yg jatuh tempo dalam tahun ini</td>
   <td>Rp <input name="fg" onchange="calc_simpanan()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">h. Harta simpanan kena zakat(F-G, jika &amp;gt nisab)</td>
+  <td style="padding-left:20px;">H. Harta simpanan kena zakat(F-G, jika &amp;gt nisab)</td>
   <td><strong>Rp</strong> <input name="fh" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#66FFFF">
@@ -139,32 +140,32 @@ function calc_total()
   <td colspan="2"><div align="center"><strong>ZAKAT PROFESI</strong></div></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">j. Pendapatan / Gaji per Bulan (setelah dipotong pajak)</td>
+  <td style="padding-left:20px;">J. Pendapatan / Gaji per Bulan (setelah dipotong pajak)</td>
   <td>Rp <input name="fj" onchange="calc_profesi()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">k. Bonus/pendapatan lain-lain selama setahun</td>
+  <td style="padding-left:20px;">K. Bonus/pendapatan lain-lain selama setahun</td>
   <td>Rp <input name="fk" onchange="calc_profesi()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">l. Jumlah Pendapatan per Tahun</td>
+  <td style="padding-left:20px;">L. Jumlah Pendapatan per Tahun</td>
   <td><strong>Rp</strong><input name="fl" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">m. Rata-rata pengeluaran rutin per bulan (kebutuhan fisik, air, listrik, pendidikan, kesehatan, transportasi, dll)</td>
+  <td style="padding-left:20px;">M. Rata-rata pengeluaran rutin per bulan (kebutuhan fisik, air, listrik, pendidikan, kesehatan, transportasi, dll)</td>
   <td>Rp <input name="fm" onchange="calc_profesi()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">n. Pengeluaran lainnya dalam satu tahun (pendidikan, kesehatan, dll)</td>
+  <td style="padding-left:20px;">N. Pengeluaran lainnya dalam satu tahun (pendidikan, kesehatan, dll)</td>
   <td>Rp <input name="fn" onchange="calc_profesi()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">o. Jumlah Pengeluaran per Tahun (12 x m + n)</td>
+  <td style="padding-left:20px;">O. Jumlah Pengeluaran per Tahun (12 x M + N)</td>
   <td><strong>Rp</strong> <input name="fo" class="fieldzakat" value="0" size="12" readonly="readonly">
   </td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">p. Penghasilan kena zakat (L - O , jika &amp;gt nisab)</td>
+  <td style="padding-left:20px;">P. Penghasilan kena zakat (L - O , jika &amp;gt nisab)</td>
   <td><strong>Rp</strong> <input name="fp" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#66FFFF">
@@ -175,27 +176,27 @@ function calc_total()
   <td colspan="2"><div align="center"><strong>ZAKAT HARTA USAHA (PERDAGANGAN / BISNIS LAINNYA)</strong></div></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">r. Nilai Kekayaan Perusahaan (termasuk uang tunai, simpanan di bank, real estate, alat produksi, inventori, barang jadi, dll)</td>
+  <td style="padding-left:20px;">R. Nilai Kekayaan Perusahaan (termasuk uang tunai, simpanan di bank, real estate, alat produksi, inventori, barang jadi, dll)</td>
   <td>Rp <input name="fr" onchange="calc_usaha()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">s. Utang perusahaan jatuh tempo</td>
+  <td style="padding-left:20px;">S. Utang perusahaan jatuh tempo</td>
   <td>Rp <input name="fs" onchange="calc_usaha()" value="0" size="12"></td>
 </tr>
 <tr bgcolor="#FFF4DF">
-  <td style="padding-left:20px;">t. Komposisi Kepemilikan (dalam persen)</td>
+  <td style="padding-left:20px;">T. Komposisi Kepemilikan (dalam persen)</td>
   <td><input name="ft" onchange="calc_usaha()" value="100" size="4"> %</td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">u. Jumlah Bersih Harta Usaha (t% x [r-s])</td>
+  <td style="padding-left:20px;">U. Jumlah Bersih Harta Usaha (t% x [R-S])</td>
   <td> <strong>Rp</strong> <input name="fu" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;">v. Harta usaha kena zakat (u, jika &amp;gt nisab)</td>
+  <td style="padding-left:20px;">V. Harta usaha kena zakat (U, jika &amp;gt nisab)</td>
   <td> <strong>Rp</strong> <input name="fv" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#FDE6B0">
-  <td style="padding-left:20px;"><b>W. JUMLAH ZAKAT ATAS HARTA USAHA YANG WAJIB DIBAYARKAN PER TAHUN (2,5% X v)</b></td>
+  <td style="padding-left:20px;"><b>W. JUMLAH ZAKAT ATAS HARTA USAHA YANG WAJIB DIBAYARKAN PER TAHUN (2,5% X V)</b></td>
   <td> <strong>Rp</strong> <input name="z3" class="fieldzakat" value="0" size="12" readonly="readonly"></td>
 </tr>
 <tr bgcolor="#66FFFF">
