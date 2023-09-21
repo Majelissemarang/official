@@ -1,423 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAJELIS SEMARANG</title>
-    <!--==================== Favicon ========================-->
-    <link rel="icon" href="./assets/img/smg.png" type="image/png">
-    <!--=================== Google Fonts ====================-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!--=================== Remixicons ====================-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!--=================== Swiper ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--=================== Main css ====================-->
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-</head>
-
-<body>
-
-    <header id="header" class="header">
-        <nav class="nav container">
-             <a href="index.html" class=""></a>
-            <div id="nav-menu" class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link nav__link--active">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#layanan" class="nav__link">layanan</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#blog" class="nav__link">Blog</a>
-                    </li>
-                 
-                </ul>
-                <span id="nav-close" class="nav__close">
-                    <i class="ri-close-line"></i>
-                </span>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beramal Online</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="row">
+        <h1>Beramal Online</h1>
+        <h3>Kumpulan Website Atau Platform Untuk Beramal, Donasi, Wakaf, zakat, Infaq Dan Sedekah</h3>
+      </div>
+      <div class="row">
+        <!-- Column -->
+<div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://baznas.go.id/assets/images/logo_baznas_mobile.png"
+              />
             </div>
-            <span id="nav-open" class="nav__open">
-                <i class="ri-menu-3-line"></i>
-            </span>
-        </nav>
-    </header>
-
-    <main class="main">
-
-        <section id="home" class="home">
-            <div class="home__wrapper d-grid container">
-                <div class="home__content">
-                    <h1 class="home__title">AS-<span>SAMARANI</span><br />
-                        DIGITAL MEDIA ISLAMI</h1>
-                    <p class="home__text">
-                       Media Informasi Digital Tentang Islam Yang Berdiri Atau Terbentuk Di Kota Semarang
-                    </p>
-
-                    <div class="home__social">
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a href="https://www.tiktok.com/@infopengajiansemarang" class="social__link">
-                                    <i class="ri-tiktok-fill"></i>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="mailto:infopengajiansemarang@gmail.com" class="social__link">
-                                    <i class="ri-mail-fill"></i>
-                                </a>
-                            </li>
-                           
-                        </ul>
-                    </div>
-                    <a href="#layanan" class="btn btn--primary">Jelajahi</a>
-                </div>
-                <img class="home__img" src="./assets/img/smg.png" alt="">
-            </div>
-        </section>
-
-        <section id="layanan" class="section service">
-            <div class="section__header container">
-                <h2 class="section__title">Layanan</h2>
-            </div>
-            <div class="d-grid service__wrapper container">
-               
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">01</div>
-                        <h3 class="service__title">AL Quran</h3>
-                        <p class="service__text">AL Quran Digital Yang Dapat Dibaca Kapanpun</p>
-                        <a href="https://quran.kemenag.go.id/" class="service__link">Baca Quran</a>
-                    </div>
-                </div>
-
-                 <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">02</div>
-                        <h3 class="service__title">Hadits</h3>
-                        <p class="service__text">Platform Mencari Hadits Yang Dibutuhkan</p>
-                        <a href="https://www.hadits.id/" class="service__link">Cari Hadits</a>
-                    </div>
-                </div>
-               
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">03</div>
-                        <h3 class="service__title">Jadwal Sholat</h3>
-                        <p class="service__text">Jadwal Digital Sholat Setiap Harinya</p>
-                        <a href="./jadwalsholat/index.html" class="service__link">Lihat Jadwal</a>
-                    </div>
-                </div>
-
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">04</div>
-                        <h3 class="service__title">Hitung Zakat</h3>
-                        <p class="service__text">Platform Resmi Perhitungan Dan Pembayaran Zakat</p>
-                        <a href="https://baznas.go.id/kalkulatorzakat" class="service__link">Kunjungi</a> 
-                    </div>
-                </div>
-
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">05</div>
-                        <h3 class="service__title">Haji Dan umroh</h3>
-                        <p class="service__text">Platform Resmi Tentang Haji Dan Umroh</p>
-                        <a href="https://haji.kemenag.go.id/v4/" class="service__link">Kunjungi</a> 
-                    </div>
-                </div>
-                
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">06</div>
-                        <h3 class="service__title">Kitab Maulid</h3>
-                        <p class="service__text">Kumpulan Kitab Maulid Digital (PDF)</p>
-                        <a href="./kitabmaulid/index.html" class="service__link">Baca Maulid</a> 
-                    </div>
-                </div>
-
- <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">07</div>
-                        <h3 class="service__title">Yasin Tahlil</h3>
-                        <p class="service__text">Bacaan Surat Yasin Dan Doa Tahlil (PDF)</p>
-                        <a href="./yasintahlil/index.html" class="service__link">Baca</a> 
-                    </div>
-                </div>
-
-<div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">08</div>
-                        <h3 class="service__title">Wirid Doa Sholawat</h3>
-                        <p class="service__text">Kumpulan Wirid Doa Harian Dan Sholawat</p>
-                        <a href="./wiriddoasholawat/index.html" class="service__link">Baca</a> 
-                    </div>
-                </div>
-
-                 <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">09</div>
-                        <h3 class="service__title">Jadwal Pengajian</h3>
-                        <p class="service__text">Kumpulan Jadwal Pengajian Wilayah Semarang</p>
-                        <a href="https://www.tiktok.com/@infopengajiansemarang" class="service__link">Lihat Jadwal</a> 
-                    </div>
-                </div>
-
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">10</div>
-                        <h3 class="service__title">Tasbih Digital</h3>
-                        <p class="service__text">Alat Hitung Tasbih Digital Yang Dapat Digunakan Kapanpun</p>
-                        <a href="./tasbihdigital/index.html" class="service__link">Coba</a> 
-                    </div>
-                </div>
-
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">11</div>
-                        <h3 class="service__title">Akad Nikah</h3>
-                        <p class="service__text">Platform Resmi Pendaftaran Akad Nikah</p>
-                        <a href="https://simkah4.kemenag.go.id/" class="service__link">Kunjungi</a> 
-                    </div>
-                </div>
-                
-                <div class="service__item">
-                    <div class="service__card">
-                        <div class="service__number">12</div>
-                        <h3 class="service__title">Cek Produk Halal</h3>
-                        <p class="service__text">Platform Resmi Pengecekan Keaslian Sertifikat Produk Halal</p>
-                        <a href="https://bpjph.halal.go.id/" class="service__link">Coba</a> 
-                    </div>
-                </div>
-
-                
-                
-            </div>
-        </section>
-
-        <section id="blog" class="portfolio section">
-            <div class="section__header container">
-                <h2 class="section__title">Blog</h2>
-            </div>
-            <div class="portfolio__wrapper d-grid container">
-             
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="">
-                    <div class="portfolio__info">
-                        <h3 class="portfolio__title">Daftar Masjid Dan Mushola Kota Semarang</h3>
-                        <p class="portfolio__text">Kumpulan Data Lokasi Masjid Dan Mushola Yang Ada Di Kota Semarang</p>
-                    </div>
-                    <a href="https://scymark.semarangkota.go.id/v18/masjid/semua.php?jenis=mas&kecamatan=&kelurahan=&namakecamatan=" class="portfolio__link">
-                        <i class="ri-arrow-right-up-line"></i>
-                    </a>
-                </div>
-                
-
-                 <div class="portfolio__item">
-                    <img class="portfolio__img" src="">
-                    <div class="portfolio__info">
-                        <h3 class="portfolio__title">Daftar Makam Waliyullah Semarang</h3>
-                        <p class="portfolio__text">Kumpulan Daftar Makam Waliyullah Di Wilayah Kota Semarang</p>
-                    </div>
-                    <a href="./makamwalisemarang/index.html" class="portfolio__link">
-                        <i class="ri-arrow-right-up-line"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="testimonial section">
-            <div class="section__header container">
-                <h2 class="section__title">Kumpulan Dawuh Ulama</h2>
-            </div>
-            <div class="testimonial__wrapper container swiper">
-                <div class="swiper-wrapper">
-                   
-                    <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                            Jangan jadikan perbedaan pendapat sebagai sebab perpecahan dan permusuhan. 
-                            Karena yang demikian itu merupakan kejahatan besar yang bisa meruntuhkan bangunan masyarakat, 
-                            dan menutup pintu kebaikan di penjuru mana saja.
-
-                        </p>
-                        <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/KH-Muhammad-Hasyim-Asyari.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Hadratussyeikh Hasyim Asy’ari</h3>
-                                <p class="testimonial__description">Pendiri Nahdlatul Ulama</p>
-                            </div>
-                        </div>
-                        <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-                    
-                    <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                            Kebaikan Allah akan datang kepadamu, meski kamu tidak tahu bagaimana caranya 
-                            bahkan disaat kamu merasa tidak mungkin. Tidak ada yang mustahil bagi Allah.
-                        </p>
-                        <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/habibluthfi.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Habib Muhammad Luthfi Bin Ali Bin Hasyim Bin Yahya</h3>
-                                <p class="testimonial__description">Rais Aam Jatman</p>
-                            </div>
-                        </div>
-                        <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-                    
-                    <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                           Tidak ada nikmat yang kurang, yang ada hanyalah syukur yang kurang. 
-                           Jika kamu menginginkan yang lebih maka bersykurlah lebih.
-                        </p>
-                        <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/Habib Jindan bin Novel bin Salim bin Jindan.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Habib Jindan bin Novel bin Salim bin Jindan</h3>
-                                <p class="testimonial__description">Pimpinan Yayasan Al Fachriyah</p>
-                            </div>
-                        </div>
-                        <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-
-                      <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                           Daripada kamu memikirkan mereka yang tidak tulus mencintaimu, 
-                           lebih baik kamu mendoakan mereka yang setia padamu
-                        </p>
-                          <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/Habib Ali Al-kaff.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Habib Ali Zaenal Abidin Al-Kaff</h3>
-                                <p class="testimonial__description">Pimpinan Pondok Pesantren Ribath Garut</p>
-                            </div>
-                        </div>
-                        <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-
-                      <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                           Dimasa kecil kehormatanmu ada pada orang tuamu dan dimasa dewasa kehormatan orang tuamu
-                        </p>
-                          <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/habib ali zainal abidin assegaf.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Habib Ali Zainal Abidin Assegaf</h3>
-                                <p class="testimonial__description">Pimpinan Majelis Az-Zahir Pekalongan</p>
-                            </div>
-                        </div>
-                        <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-
-                     <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                           Jangan ragu berbuat baik dan jangan mengharap balasan. 
-                           Pada Akhirnya, buah perbuatan akan selalu mengikuti kita.
-                        </p>
-                          <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/Habib_syech.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Habib Syech Bin Abdul Qodir Assegaf</h3>
-                                <p class="testimonial__description">Pimpinan Majelis Ahbaabul Musthofa</p>
-                            </div>
-                            </div>
-                         <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-
-                             <div class="testimonial__item swiper-slide">
-                        <p class="testimonial__text">
-                           Kita hidup pada zaman dimana orang lain menilai kita tanpa tahu kita yang sebenarnya,
-                          maka belajarlah menjadi pemaaf, berhentilah menjadi pembenci dan teruslah belajar memperbaiki diri
-                        </p> 
-                          <div class="testimonial__data">
-                            <img class="testimonial__img" src="assets/img/dawuh/habibhasanbinjafarassegaf.jpg" alt="">
-                            <div class="testimonial__info">
-                                <h3 class="testimonial__name">Habib Hasan Bin Ja'far Assegaf</h3>
-                                <p class="testimonial__description">Pimpinan Majelis Nurul Musthofa</p>
-                            </div>
-                            <span class="testimonial__icon">
-                            <i class="ri-double-quotes-r"></i>
-                        </span>
-                    </div>
-
-
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
-
-
-    <footer class="footer">
-        <div class="footer__wrapper d-grid container">
-            <div class="footer__item">
-                <h3 class="footer__name">Majelis Semarang</h3>
-                <ul class="footer__social-list social__list">
-                    <li class="social__item">
-                        <a href="https://www.tiktok.com/@infopengajiansemarang" class="social__link">
-                            <i class="ri-tiktok-fill"></i>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="mailto:infopengajiansemarang@gmail.com" class="social__link">
-                            <i class="ri-mail-fill"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__item">
-                <h4 class="footer__title">Navigation</h4>
-                <ul class="footer__list">
-                    <a href="#home" class="footer__link">Home</a>
-                    <a href="#layanan" class="footer__link">Layanan</a>
-                    <a href="#blog" class="footer__link">Blog</a>
-                   
-                </ul>
-            </div>
-            <div class="footer__item">
-                <h4 class="footer__title">Contact</h4>
-                <ul class="footer__list">
-                    <a href="mailto:infopengajiansemarang@gmail.com" class="footer__link">infopengajiansemarang@gmail.com</a>
-                </ul>
-            </div>
-            <div class="footer__item">
-                <h4 class="footer__title">Address</h4>
-                <address class="footer__address">
-                    
-                    Kota Semarang<br>
-                    Jawa Tengah, Indonesia
-                </address>
-            </div>
+            <h3>BAZNAS</h3>
+            <p>Badan Amil Zakat Nasional (BAZNAS) menghimpun dan menyalurkan Zakat, Infaq, dan Sedekah (ZIS) dari muzaki kepada mustahik yang membutuhkan 
+              melalui berbagai program pendistribusian dan pendayagunaan yang tepat sasaran.</p>
+            <button  class="btn">
+              <a href="https://baznas.go.id/"span>Kunjungi</a>
+            </button>
+          </div>
         </div>
-        <p class="footer__copyright container">
-            &copy; Copyright 2023 Majelis Semarang
-        </p>
-    </footer>
+
+        <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="data:image/jpeg;base64,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8Wt+foPWRXBMWlCutVs1luQFAuTYixuRYWJ844LxlCFLnff+DjWkxYIFJcnKF55r2t63lh4+ww1GngkN20esR95jqB6bH0CzHDcVwyYtsTkqFTdlSyXV2+I/FtuR1bpNS4zCGt3znEO2fOQVpgE3uL+LbbTyEIrFRimk1b2+Df2FH/Ut/pN/MkieDcUfCvnUBgRlZTsynl0PWSXCOMUaOIrYhg5zl8qqF0DPm8RLDXYWHznHw3E4emKtOolR6bgBWAUOuUkg6mwO2x5QSmkopS4bJGvw/D4um9bCg03pjNUottbUkoeWxty0tYTkwNRkwdR1NmWvSII5EC4n2hxGjh6dVaHePUqLlL1AqhVN72VSbnXn099OGxtFcK9Fu87x2DghVygr8I1a9iNzbn0gnVG72Tp3XnsWXC0lxVbD42mLG+Suo+6wQgH6gehWQ3ZP9eX1qfytOfs3xv7G5JBKMPEote42IuQL8vQ9Jx4HHmjXWsguVYmx5g3BB8tCYsl5YvS+92zVX/7rf6h/mMl+2n6237i/lNT4jBtU73LX1bOadksTe9s2a+W/S8juI4xsRVaqwsWN7DYAAAD2AEh8GUmowavlnNERIMBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAP//Z"
+              />
+            </div>
+            <h3>NU CARE LAZISNU</h3>
+            <p>"NUcare.id adalah situs resmi Lembaga Amil Zakat, Infaq dan Shadaqah NU yang dikelola oleh Pengurus Pusat (Jakarta)</p>
+            <button class="btn">
+               <a href="https://nucare.id/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
 
 
+         <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://lazismu.org/images/logo.svg"
+              />
+            </div>
+            <h3>LAZISMU</h3>
+            <p>LAZISMU adalah lembaga zakat nasional dengan SK Menag No. 90 Tahun 2022, yang berkhidmat dalam pemberdayaan masyarakat melalui pendayagunaan dana zakat, infaq, 
+              wakaf dan dana kedermawanan lainnya baik dari perseorangan, lembaga, perusahaan dan instansi lainnya.</p>
+            <button class="btn">
+               <a href="https://lazismu.org/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
 
-    <!--=================== Swiper ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--=================== ScrollReveal ====================-->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <!--=================== Main js ====================-->
-    <script src="assets/js/main.js"></script>
-</body>
+        
+        <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://digital.dompetdhuafa.org/_nuxt/img/logo-color.ad4ec54.png"
+              />
+            </div>
+            <h3>Dompet Dhuafa</h3>
+            <p>Dompet Dhuafa adalah lembaga filantropi dan kemanusiaan yang bergerak untuk pemberdayaan umat (Empowering People) dan kemanusiaan. Pemberdayaannya bergulir melalui pengelolaan dana zakat, infak, sedekah dan wakaf (Ziswaf),
+               serta dana sosial lainnya yang terkelola secara modern dan amanah.</p>
+            <button class="btn">
+               <a href="https://www.dompetdhuafa.org/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
 
+        <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://assets.kitabisa.cc/images/logos/logogram__ktbs.png"
+              />
+            </div>
+            <h3>Kitabisa.com</h3>
+            <p>Kitabisa merupakan sebuah aplikasi dan situs web asal Indonesia yang penggalangan dana online. Aplikasi dan situs tersebut dibangun 
+              oleh M. Alfatih Timur dan Vikra Ijas di tahun 2013 di Jakarta.</p>
+            <button class="btn">
+               <a href="https://kitabisa.com/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+         <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://m.benihbaik.com/img/home/logo_benihbaik.png"
+              />
+            </div>
+            <h3>BenihBaik.com</h3>
+            <p>Yayasan Benih Baik Indonesia (“YBBI”) didirikan oleh Andy Flores Noya, Khristiana Anggit Mustikaningrum, 
+              dan Firdaus Juli (“Para Pendiri”) sebagai bentuk kepedulian Para Pendiri terhadap beragam isu sosial, 
+              kemanusiaan, kebudayaan, keagamaan, dan kesejahteraan sosial lainnya yang mengalami kesulitan memperoleh 
+              dukungan pendanaan untuk memenuhi kebutuhan dasar, pengembangan diri, dan/atau potensi ekonomi atau 
+              operasional lainnya yang mungkin belum terakomodir 
+              oleh pemerintah baik secara keseluruhan maupun sebagian kebutuhan tersebut dalam waktu yang singkat.</p>
+            <button class="btn">
+               <a href="https://benihbaik.com/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="data:image/png;base64,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"
+              />
+            </div>
+            <h3>WeCare.id</h3>
+            <p>WeCare.id merupakan situs web yang dibangun khusus untuk mengumpulkan dana bagi pasien dan masyarakat 
+              yang memiliki kemampuan finansial terbatas serta tinggal di wilayah sulit dijangkau. 
+              WeCare.id bekerja dengan menghubungkan para calon donatur dan para pasien serta masyarakat membutuhkan 
+              sehingga mereka dapat memperoleh pengobatan dan fasilitas pendukung lainnya yang menyeluruh.</p>
+            <button class="btn">
+               <a href="https://wecare.id/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://paybill.id/cfd/upload/icon/paybill-icon-crecnv-1585765847346.png?version202308302230"
+              />
+            </div>
+            <h3>Aksiamal.com</h3>
+            <p>Aksiamal.com merupakan Situs galang dana online untuk memudahkan Anda mendukung dan terhubung ke beragam gerakan aksi kebaikan dari seluruh Indonesia bagian dari Yayasan Wujud Aksi Nyata adalah salah satu lembaga filantropi yang bergerak di bidang sosial dan kemanusian. Berdirinya lembaga ini adalah sebagai bentuk rasa kepedulian kami terhadap Sumber Daya Manusia di Indonesia, 
+              dimana kita ketahui bersama bahwa masih banyak masyarakat di indonesia yang hidup jauh dari kata sejahtera.</p>
+            <button class="btn">
+               <a href="https://aksiamal.com/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+
+        <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVcJD3WNYzHJfu1RdEKjkfkqEJKNiXuIAh7ghPfQJoDnBVeLykLba8Q58dbyJ-baDV0kg&usqp=CAU"
+              />
+            </div>
+            <h3>Ayobantu.com</h3>
+            <p>Yayasan Ayo Bantu Peduli Indonesia berdiri di Semarang, Jawa Tengah pada awal tahun 2020. Semangat membantu sesama sepertinya sudah masuk ke dalam DNA kita sebagai orang Indonesia. Kebiasaan ringan tangan dan gotong royong 
+              ini pun harus terus dilestarikan melalui berbagai cara dan media termasuk platform donasi.</p>
+            <button class="btn">
+               <a href="https://ayobantu.com/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+         <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="./icon/berkahjariah.png"
+              />
+            </div>
+            <h3>BerkahJariah</h3>
+            <p>BerkahJariah adalah platform untuk penggalangan dana maupun berdonasi jariah secara online dan transparan.
+BerkahJariah dikelola oleh Yayasan Berkah Jariah yang memiliki Izin Kegiatan Yayasan sejak tahun 2019</p>
+            <button class="btn">
+               <a href="https://berkahjariah.com/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+
+         <!-- Column -->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6vmWDLAJyPA4tKmS6O-SfkLLA2jqZEIIdti7OH_Gfng&s"
+              />
+            </div>
+            <h3>Beramaljariyah</h3>
+            <p>Yayasan Sahabat Beramal Jariyah lembaga pengelola zakat, infak, sedekah dan wakaf (ZISWAF) 
+              dengan akta pendirian No. 79 tanggal 31-01-2020. Platform Beramaljariyah.org membantu Anda 
+              memenuhi kebutuhan berziswaf semudah mengisi kotak amal. Dana yang tersalur dapat dipantau 
+              kapanpun secara transparan. 
+              Tebarkan kebaikan kepada yang dekat, berdampak untuk yang membutuhkan dan diri Anda.</p>
+            <button class="btn">
+               <a href="https://beramaljariyah.org/"span>Kunjungi</a>
+            </button>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
